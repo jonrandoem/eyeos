@@ -1,0 +1,9 @@
+lang['Register'] = 'Бүртгэх';
+lang['Name'] = 'Нэр';
+lang['Surname: '] = 'Овог';
+lang['Username'] = 'Хэрэглэгчийн нэр';
+lang['Password'] = 'Нууц үг';
+lang['Repeat password'] = 'нууц үг давтах';
+lang['Email'] = 'И-Мэйл';
+lang['Please fill in all fields.'] = 'Бүх талбарыг бөглнө үү.';
+lang['Given passwords do not match, please try again'] = 'Нууц үгнүүд хоорондоо тохирохгүй байна.';

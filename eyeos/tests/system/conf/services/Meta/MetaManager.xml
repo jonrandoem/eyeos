@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conf>
+	<handlers>
+		<!-- FILES -->
+		<handler objectClass="EyeUserFile" handlerClass="DefaultUserFileXMLMetaHandler" metaDataClass="VirtualFileMetaData">
+			<param name="myExampleName" value="myExampleValue" />
+		</handler>
+		<handler objectClass="EyeSysFile" handlerClass="DefaultSysFileMySQLMetaHandler" metaDataClass="VirtualFileMetaData" />
+		<handler objectClass="EyeWorkgroupFile" handlerClass="DefaultWorkgroupFileXMLMetaHandler" metaDataClass="VirtualFileMetaData" />
+		
+		<!-- USERS / GROUPS -->
+		<handler objectClass="EyeosUser" handlerClass="DefaultEyeosUserXMLMetaHandler" metaDataClass="BasicMetaData" />
+		
+		<!-- APPLICATIONS -->
+		<handler objectClass="EyeosApplicationDescriptor" handlerClass="EyeosAppsXMLMetaHandler" metaDataClass="ApplicationMetaData" />
+		
+		<!-- This entry must be the last one -->
+		<handler objectClass="EyeObject" handlerClass="DefaultEyeObjectMetaHandler" metaDataClass="BasicMetaData" />
+	</handlers>
+</conf>

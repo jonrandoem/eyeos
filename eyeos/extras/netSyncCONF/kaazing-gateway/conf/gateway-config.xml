@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+
+    The contents of this file are subject to the Common Public Attribution 
+    License Version 1.0 (the "License"); you may not use this file except 
+    in compliance with the License. You may obtain a copy of the License 
+    at http://www.kaazing.org/CPAL.
+    
+    The License is based on the Mozilla Public License Version 1.1 but 
+    Sections 14 and 15 have been added to cover use of software over a 
+    computer network and provide for limited attribution for the Original 
+    Developer.
+    
+    In addition, Exhibit A has been modified to be consistent with Exhibit B.
+    
+    Software distributed under the License is distributed on an "AS IS" 
+    basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See 
+    the License for the specific language governing rights and limitations 
+    under the License.
+    
+    The Original Code is Kaazing Gateway. The Initial Developer of the 
+    Original Code is Kaazing Corporation.
+     
+    All portions of the code written by Kaazing Corporation are 
+    Copyright (c) 2007-2009 Kaazing Corporation. All Rights Reserved.
+
+-->
+
+<gateway-config
+	xmlns="http://xmlns.kaazing.org/gateway-config/battlestar">
+	<session>
+		<!-- associate service realms automatically -->
+		<service-domain>192.168.1.*</service-domain>
+
+		<!-- HTTP authentication configuration -->
+		<authentication-scheme>Basic</authentication-scheme>
+		<realm-name>demo</realm-name>
+
+		<!-- Session cookie configuration -->
+		<encryption-key-alias>session</encryption-key-alias>
+		<inactivity-timeout>1800</inactivity-timeout>
+	</session>
+
+	<security>
+		<keystore>
+			<type>JCEKS</type>
+			<file>keystore.db</file>
+			<password-file>keystore.pw</password-file>
+		</keystore>
+
+		<truststore>
+			<file>truststore.db</file>
+		</truststore>
+
+		<realm>
+			<name>demo</name>
+			<description>Kaazing Gateway Demo</description>
+
+			<login-module>
+				<type>file</type>
+				<success>required</success>
+				<options>
+					<file>jaas-config.xml</file>
+				</options>
+			</login-module>
+		</realm>
+	</security>
+
+    <!-- Export documentation resources -->
+    <service>
+        <accept>http://192.168.1.62:8000/</accept>
+
+        <type>directory</type>
+        <properties>
+            <directory>/</directory>
+            <welcome-file>index.html</welcome-file>
+        </properties>
+
+        <cross-site-constraint>
+            <allow-origin>http://192.168.1.62:8000</allow-origin>
+        </cross-site-constraint>
+    </service>
+
+	<!-- Proxy to STOMP server -->
+	<service>
+		<accept>ws://192.168.1.62:8001/activemq</accept>
+
+		<type>proxy</type>
+		<properties>
+			<connect>tcp://localhost:61613</connect>
+		</properties>
+
+        <cross-site-constraint>
+            <allow-origin>http://192.168.1.62:8000</allow-origin>
+	    <allow-origin>*</allow-origin>
+        </cross-site-constraint>
+	</service>
+
+</gateway-config>

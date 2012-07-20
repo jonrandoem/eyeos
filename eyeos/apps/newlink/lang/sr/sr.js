@@ -1,0 +1,12 @@
+lang['Name of the new link'] = 'Ime novog linka';
+lang['Web address to link (URL)'] = 'Internet adresa ka vezi(URL)';
+lang['Size of the window'] = 'Veličina prozora';
+lang['Icon for the link'] = 'Ikonica za vezu';
+lang['Select icon'] = 'Izaberi ikonicu';
+lang['Width: '] = 'Širina';
+lang['Height: '] = 'Visina';
+lang['Preview'] = 'Pregled';
+lang['Create'] = 'Kreiraj';
+lang['You should provide a link name!'] = 'Obezbedite ime veze';
+lang['Create new link...'] = 'Kreirajte novu vezu';
+lang['This link will open in new window'] = 'Ova veza će se otvoriti u novom prozoru';

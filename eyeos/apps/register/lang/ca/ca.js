@@ -1,0 +1,9 @@
+lang['Register'] = 'Registrar';
+lang['Name'] = 'Nom';
+lang['Surname: '] = 'Cognom';
+lang['Username'] = 'Nom d\'usuari';
+lang['Password'] = 'Contrasenya';
+lang['Repeat password'] = 'Repeteix la contrasenya';
+lang['Email'] = 'Correu electrònic';
+lang['Please fill in all fields.'] = 'Si us plau omple tots els camps ';
+lang['Given passwords do not match, please try again'] = 'Les contrasenyes no coincideixen, si us plau torni-ho a omplir';

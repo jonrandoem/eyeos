@@ -1,0 +1,277 @@
+/* CSS hacks for IE versions <= 8 */
+
+input, textarea
+{
+  border-style: expression(this.type=='checkbox' || this.type=='radio' || this.id=='quicksearchbox' ? 'none' : 'solid');
+  border-width: expression(this.type=='checkbox' || this.type=='radio' ? '0' : '1px');
+  border-color: expression(this.type=='checkbox' || this.type=='radio' ? '' : '#666666');
+  background-color: expression(this.type=='checkbox' || this.type=='radio' ? 'transparent' : '#ffffff');
+}
+
+#login-form form
+{
+  margin-top: 0;
+}
+
+.pagenav a.buttonPas
+{
+  filter: alpha(opacity=35);
+}
+
+#message
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+  filter: alpha(opacity=85);
+}
+
+.popupmenu
+{
+	background-color: #ffffff;
+}
+
+#tabsbar
+{
+  width: expression((parseInt(document.documentElement.clientWidth)-240)+'px');
+}
+
+#folder-manager
+{
+  height: expression((parseInt(document.documentElement.clientHeight)-235)+'px');
+}
+
+#identities-list
+{
+  height: expression((parseInt(document.documentElement.clientHeight)-155)+'px');
+}
+
+#messagetoolbar
+{
+  width: expression((parseInt(document.documentElement.clientWidth)-215)+'px');
+  z-index: 240;
+}
+
+#messagetoolbar select.mboxlist
+{
+  margin: 0 8px;
+  top: 8px;
+}
+
+#abooktoolbar a.buttonPas
+{
+  filter: alpha(opacity=35);
+  background-image: url('images/abook_toolbar.gif');
+}
+
+#messagetoolbar a.buttonPas
+{
+  filter: alpha(opacity=35);
+  background-image: url('images/mail_toolbar.gif');
+}
+
+#listcontrols a.buttonPas,
+#mailboxcontrols a.buttonPas
+{
+  filter: alpha(opacity=35);
+  background-image: url('images/mail_footer.png');
+}
+
+#quicksearchbar
+{
+  z-index: 250;
+}
+
+#mainscreen
+{
+  width: expression((parseInt(document.documentElement.clientWidth)-40)+'px');
+  height: expression((parseInt(document.documentElement.clientHeight)-101)+'px');
+}
+
+#directorylistbox
+{
+  height: expression((parseInt(document.documentElement.clientHeight)-125)+'px');
+}
+
+#directorylistwrap
+{
+  height: expression((parseInt(document.getElementById('directorylistbox').offsetHeight)-42)+'px');
+}
+
+#addresslist,
+#sectionslist
+{
+  height: expression(parseInt(this.parentNode.offsetHeight)+'px');
+}
+
+#mailleftcontainer
+{
+  height: expression(parseInt(this.parentNode.offsetHeight)+'px');
+}
+
+#mailrightcontainer
+{
+  width: expression((parseInt(this.parentNode.offsetWidth)-170)+'px');
+  height: expression(parseInt(this.parentNode.offsetHeight)+'px');
+}
+
+#mailrightcontent
+{
+  width: 100%;
+}
+
+#messagepartcontainer
+{
+  width: expression((parseInt(document.documentElement.clientWidth)-40)+'px');
+  height: expression((parseInt(document.documentElement.clientHeight)-100)+'px');
+}
+
+#mailcontframe
+{
+  height: expression(parseInt(this.parentNode.offsetHeight)+'px');
+}
+
+#mailrightcontent
+{
+  height: expression((parseInt(this.parentNode.offsetHeight)-20)+'px');
+}
+
+#partheader
+{
+  width: expression((parseInt(document.documentElement.clientWidth)-240)+'px');
+}
+
+#mailboxlist-container
+{
+  height: expression((parseInt(this.parentNode.offsetHeight)-20)+'px');
+}
+
+#subscription-table
+{
+  width: auto;
+}
+
+#messagelist
+{
+  width: inherit;
+  *width: auto; /* IE6/7 conditional hack */
+  border-collapse: collapse;
+}
+
+#messagelist tbody tr.unroot td.subject
+{
+  text-decoration: underline;
+}
+
+#messageframe
+{
+  width: expression((parseInt(this.parentNode.offsetWidth)-180)+'px');
+  height: expression((parseInt(this.parentNode.offsetHeight)-20)+'px');
+}
+
+#messagecanvas 
+{
+  width: expression((parseInt(this.parentNode.offsetWidth)-20)+'px');
+}
+
+#countcontrols
+{
+  width: 24em;
+  padding-right: 10px;
+}
+
+body.iframe 
+{
+  width: expression((parseInt(document.documentElement.clientWidth))+'px');
+}
+
+#compose-container
+{
+  width: expression((parseInt(document.documentElement.clientWidth)-230)+'px');
+  height: expression((parseInt(document.documentElement.clientHeight)-120)+'px');
+}
+
+#compose-body,
+#compose-headers td textarea,
+#compose-headers td input
+{
+  width: 99%;
+}
+
+div.message-part pre,
+div.message-htmlpart pre,
+div.message-part div.pre
+{
+  word-wrap: break-word;
+}
+
+#addressscreen
+{
+  width: expression((parseInt(document.documentElement.clientWidth)-245)+'px');
+  height: expression((parseInt(document.documentElement.clientHeight)-125)+'px');
+}
+
+#prefsscreen
+{
+  width: expression((parseInt(document.documentElement.clientWidth)-40)+'px');
+  height: expression((parseInt(document.documentElement.clientHeight)-125)+'px');
+}
+
+#importbox
+{
+  height: expression((parseInt(document.documentElement.clientHeight)-135)+'px');
+}
+
+#contacts-table
+{
+  width: expression(document.getElementById('addresslist').clientWidth);
+}
+
+#contacts-box,
+#prefs-box
+{
+  height: expression(parseInt(this.parentNode.offsetHeight)+'px');
+  width: expression((parseInt(this.parentNode.offsetWidth)-555)+'px');
+}
+
+#identity-details
+{
+  width: expression((parseInt(document.documentElement.clientWidth)-470)+'px');
+  height: expression((parseInt(document.documentElement.clientHeight)-155)+'px');
+}
+
+#rcmdraglayer
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+}
+
+ul.toolbarmenu
+{
+  margin: 0 0 -4px 0;
+}
+
+ul.toolbarmenu li
+{
+  min-width: auto;
+}
+
+ul.toolbarmenu li a
+{
+  min-height: auto;
+}
+
+#console
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+
+table.records-table thead tr td
+{
+  height: 19px;
+}
+
+#listmenu fieldset
+{
+  margin: 0 4px;
+  padding: 0.8em;
+}

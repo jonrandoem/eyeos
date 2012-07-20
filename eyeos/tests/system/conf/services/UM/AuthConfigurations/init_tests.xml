@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<authConfiguration>
+	<appEntry name="root">
+		<module name="FakeEyeosLoginModule" flag="optional" options="myOption1=myValue1" />
+	</appEntry>
+</authConfiguration>

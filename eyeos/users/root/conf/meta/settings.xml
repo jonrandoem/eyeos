@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<meta>
+  <entry key="eyeos.user.firstname">r00t</entry>
+  <entry key="eyeos.user.lastname">motu</entry>
+  <entry key="eyeos.user.email">root@eyeos.org</entry>
+  <entry key="eyeos.desktop.mode">dashboard</entry>
+  <entry key="eyeos.desktop.dashboard.nbcolumns">2</entry>
+  <entry key="eyeos.user.language">en</entry>
+  <entry key="eyeos.user.applications.favorite" type="array">
+    <entry key="editor">1265798565</entry>
+    <entry key="femto">1268736820</entry>
+    <entry key="spreadsheets">1272448489</entry>
+    <entry key="mail">1272448580</entry>
+    <entry key="calendar">1272448850</entry>
+    <entry key="files">1272449018</entry>
+    <entry key="runas">1272449571</entry>
+    <entry key="documents">1272449594</entry>
+    <entry key="calculator">1272449920</entry>
+  </entry>
+  <entry key="eyeos.user.applications.installed" type="array">
+    <entry key="calculator">1260878739</entry>
+    <entry key="spreadsheets">1260914661</entry>
+    <entry key="mail">1261648867</entry>
+    <entry key="files">1265798557</entry>
+    <entry key="calendar">1265798561</entry>
+    <entry key="documents">1265798562</entry>
+    <entry key="runas">1265798563</entry>
+    <entry key="editor">1265798565</entry>
+    <entry key="femto">1268736820</entry>
+    <entry key="newusersettings">1272354240</entry>
+  </entry>
+  <entry key="eyeos.user.birth.date">2005-1-6</entry>
+  <entry key="eyeos.user.birth.country">Olesa</entry>
+  <entry key="eyeos.user.birth.city">Spain</entry>
+  <entry key="eyeos.user.currentlife.country">Barcelona</entry>
+  <entry key="eyeos.user.currentlife.city">Spain</entry>
+  <entry key="eyeos.appearance.desktop.background.color">#CCC</entry>
+  <entry key="eyeos.appearance.desktop.fonts.icons.color">red</entry>
+  <entry key="eyeos.appearance.desktop.fonts.widgets.color">blue</entry>
+  <entry key="eyeos.user.desktop.wallpaperMode">color</entry>
+  <entry key="eyeos.user.desktop.backgroundColors" type="array">
+    <entry key="#000000">false</entry>
+    <entry key="#808080">false</entry>
+    <entry key="#A0A0A0">false</entry>
+    <entry key="#FF0000">false</entry>
+    <entry key="#00FF00">false</entry>
+    <entry key="#0000FF">false</entry>
+    <entry key="rgb(99,61,255)">false</entry>
+    <entry key="green">false</entry>
+    <entry key="#FFF">false</entry>
+    <entry key="#CCC">true</entry>
+  </entry>
+  <entry key="eyeos.user.applications.onLogin" type="array">
+    <entry key="calculator">false</entry>
+    <entry key="spreadsheets">false</entry>
+    <entry key="mail">false</entry>
+    <entry key="files">false</entry>
+    <entry key="calendar">false</entry>
+    <entry key="documents">false</entry>
+    <entry key="runas">false</entry>
+    <entry key="editor">false</entry>
+    <entry key="femto">false</entry>
+    <entry key="newusersettings">false</entry>
+  </entry>
+  <entry key="eyeos.user.desktop.wallpaper">sys:///extern/images/wallpapers/abstract/Wave.jpg</entry>
+  <entry key="eyeos.user.desktop.wallpaperId">1</entry>
+</meta>

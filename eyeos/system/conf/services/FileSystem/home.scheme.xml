@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conf>
+	<locatorClassName>DefaultUserFileLocator</locatorClassName>
+	<handlerClassName>EyeUserFile</handlerClassName>
+	<mountpointsManager class="UserMountpointsManager">
+		<provider class="XMLMountpointDescriptorsProvider" />
+	</mountpointsManager>
+</conf>

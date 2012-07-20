@@ -1,0 +1,12 @@
+lang['Name of the new link'] = 'Názov novej linky';
+lang['Web address to link (URL)'] = 'Web adresa linky (URL)';
+lang['Size of the window'] = 'Veľkosť okna';
+lang['Icon for the link'] = 'Ikona linky';
+lang['Select icon'] = 'Vybrať ikonu';
+lang['Width: '] = 'Šírka:';
+lang['Height: '] = 'Výška:';
+lang['Preview'] = 'Náhľad';
+lang['Create'] = 'Vytvoriť';
+lang['You should provide a link name!'] = 'Mali by ste vložiť názov linky!';
+lang['Create new link...'] = 'Vytvoriť novú linku';
+lang['This link will open in new window'] = 'Táto linka otvorí nové okno';

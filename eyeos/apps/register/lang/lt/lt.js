@@ -1,0 +1,9 @@
+lang['Register'] = 'Registracija';
+lang['Name'] = 'Vardas';
+lang['Surname: '] = 'Pavardė';
+lang['Username'] = 'Pseudonimas';
+lang['Password'] = 'Slaptažodis';
+lang['Repeat password'] = 'Pakartoti slaptažodį';
+lang['Email'] = 'El. paštas';
+lang['Please fill in all fields.'] = 'Prašome užpildyti visus laukus.';
+lang['Given passwords do not match, please try again'] = 'Įvesti slaptažodžiai nesutampa, prašome pakartoti operaciją';

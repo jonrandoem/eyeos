@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<meta>
+  <entry key="eyeos.application.name">User Management</entry>
+  <entry key="eyeos.application.author">eyeOS Team</entry>
+  <entry key="eyeos.application.version">1.0</entry>
+  <entry key="eyeos.application.description">Admin Tool.</entry>
+  <entry key="eyeos.application.license">AGPL</entry>
+  <entry key="eyeos.application.category">System</entry>
+  <entry key="eyeos.application.iconUrl">sys:///extern/images/64x64/apps/system-users.png</entry>
+  <entry key="eyeos.application.taskBarIconUrl">sys:///extern/images/16x16/apps/system-users.png</entry>
+  <entry key="eyeos.application.iconPath">[Path of the icon, relative to the application directory]</entry>
+  <entry key="eyeos.application.iconData">[Base64 encoded icon data]</entry>
+  <entry key="eyeos.application.systemParameters" type="array">
+  	<entry key="listable">true</entry>
+  	<entry key="owner">root</entry>
+  	<entry key="group">admin</entry>
+  	<entry key="permissions">---x--x---</entry>
+  	<entry key="anonymous">false</entry>
+  	<entry key="suid">false</entry>
+  </entry>
+</meta>

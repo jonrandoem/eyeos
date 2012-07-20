@@ -1,0 +1,12 @@
+lang['Applications'] = 'Aplikacje';
+lang['Files'] = 'Pliki';
+lang['People'] = 'Ludzie';
+lang['Home'] = 'Strona główna';
+lang['Documents'] = 'Dokumenty';
+lang['Images'] = 'Zdjęcia';
+lang['Shared by me'] = 'Udostępnij';
+lang['Create new contact'] = 'Stwórz nowy kontakt';
+lang['Groups'] = 'Grupy';
+lang['Join workgroup'] = 'Dołącz do grupy';
+lang['Delete a contact'] = 'Usuń kontakt';
+lang['Create group'] = 'Stwórz grupę';

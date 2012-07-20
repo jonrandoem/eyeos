@@ -1,0 +1,1 @@
+lang['Calculator'] = 'Som Pompie';

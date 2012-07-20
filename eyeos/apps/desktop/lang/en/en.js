@@ -1,0 +1,17 @@
+lang['Desktop'] = 'Desktop';
+lang['Open'] = 'Open';
+lang['Rename'] = 'Rename';
+lang['Separator'] = 'Separator';
+lang['Delete'] = 'Delete';
+lang['Download'] = 'Download';
+lang['Upload file'] = 'Upload file';
+lang['New folder'] = 'New folder';
+lang['New simple document'] = 'New simple document';
+lang['New document'] = 'New document';
+lang['New link'] = 'New link';
+lang['Settings'] = 'Settings';
+lang['Desktop'] = 'Desktop';
+lang['files'] = 'files';
+lang['Name'] = 'Name';
+lang['Size'] = 'Size';
+lang['You can not rename multiple files at once'] = 'You can not rename multiple files at once';

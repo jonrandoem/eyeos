@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<meta>
+  <entry key="eyeos.user.firstname"></entry>
+  <entry key="eyeos.user.lastname"></entry>
+  <entry key="eyeos.user.email"></entry>
+  <entry key="eyeos.user.language">en</entry>
+  <entry key="eyeos.desktop.mode">dashboard</entry>
+  <entry key="eyeos.desktop.dashboard.nbcolumns">2</entry>
+  <entry key="eyeos.user.desktop.wallpaperMode">image</entry>
+  <entry key="eyeos.user.desktop.backgroundColors" type="array">
+    <entry key="#E6E6E6">true</entry>
+    <entry key="#CCDADA">false</entry>
+    <entry key="#A1C4E0">false</entry>
+    <entry key="#A7AFC4">false</entry>
+    <entry key="#999999">false</entry>
+    <entry key="#6293BB">false</entry>
+    <entry key="#679966">false</entry>
+    <entry key="#787B9A">false</entry>
+    <entry key="#6E829A">false</entry>
+  </entry>
+  <entry key="eyeos.user.desktop.wallpaper">sys:///extern/images/wallpapers/nature/default.jpg</entry>
+  <entry key="eyeos.user.desktop.wallpaperId">nature</entry>
+  <entry key="eyeos.user.applications.favorite" type="array">
+    <entry key="calculator">0</entry>
+    <entry key="mail">0</entry>
+    <entry key="files">0</entry>
+    <entry key="calendar">0</entry>
+    <entry key="documents">0</entry>
+    <entry key="femto">0</entry>
+  </entry>
+  <entry key="eyeos.user.applications.installed" type="array">
+  <entry key="calculator">0</entry>
+    <entry key="mail">0</entry>
+    <entry key="files">0</entry>
+    <entry key="calendar">0</entry>
+    <entry key="documents">0</entry>
+    <entry key="femto">0</entry>
+  </entry>
+</meta>

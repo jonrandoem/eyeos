@@ -1,0 +1,9 @@
+lang['Register'] = 'रजिस्टर';
+lang['Name'] = 'नाम';
+lang['Surname: '] = 'उपनाम';
+lang['Username'] = 'उपयोगकर्ता नाम';
+lang['Password'] = 'पासवर्ड';
+lang['Repeat password'] = 'पासवर्ड दोहराएँ ';
+lang['Email'] = 'ईमेल';
+lang['Please fill in all fields.'] = 'कृपया सभी सथान भरे';
+lang['Given passwords do not match, please try again'] = 'पासवर्ड सही नही, दोबारा कोशिश करे';

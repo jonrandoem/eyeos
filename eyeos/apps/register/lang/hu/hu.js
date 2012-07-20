@@ -1,0 +1,9 @@
+lang['Register'] = 'Regisztráció';
+lang['Name'] = 'Keresztnév';
+lang['Surname: '] = 'Családnév:';
+lang['Username'] = 'Felhasználónév';
+lang['Password'] = 'Jelszó';
+lang['Repeat password'] = 'Jelszó újra';
+lang['Email'] = 'E-mail cím';
+lang['Please fill in all fields.'] = 'Kérem, töltse ki az összes mezőt!';
+lang['Given passwords do not match, please try again'] = 'A megadott jelszavak nem egyeznek. Kérem, próbálja újra!';

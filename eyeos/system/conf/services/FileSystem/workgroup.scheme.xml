@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conf>
+	<locatorClassName>DefaultWorkgroupFileLocator</locatorClassName>
+	<handlerClassName>EyeWorkgroupFile</handlerClassName>
+</conf>

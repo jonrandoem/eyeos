@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conf>
+	<handlers>
+		<!-- FILES -->
+		<handler objectClass="EyeUserFile" handlerClass="DefaultUserFileXMLMetaHandler" metaDataClass="VirtualFileMetaData" />
+		<handler objectClass="EyeUserConfFile" handlerClass="DefaultUserConfFileMetaHandler" metaDataClass="VirtualFileMetaData" />
+		<handler objectClass="EyeSysFile" handlerClass="DefaultSysFileMySQLMetaHandler" metaDataClass="VirtualFileMetaData" />
+		<handler objectClass="EyeWorkgroupFile" handlerClass="DefaultWorkgroupFileXMLMetaHandler" metaDataClass="VirtualFileMetaData" />
+		<handler objectClass="EyeWorkgroupConfFile" handlerClass="DefaultWorkgroupConfFileMetaHandler" metaDataClass="VirtualFileMetaData" />
+		
+		<!-- USERS / GROUPS -->
+		<handler objectClass="EyeosUser" handlerClass="DefaultEyeosUserPDOMetaHandler" metaDataClass="PrincipalMetaData" />
+		<handler objectClass="EyeosWorkgroup" handlerClass="DefaultEyeosWorkgroupXMLMetaHandler" metaDataClass="WorkgroupMetaData" />
+		
+		<!-- APPLICATIONS -->
+		<handler objectClass="EyeosApplicationDescriptor" handlerClass="EyeosAppsXMLMetaHandler" metaDataClass="ApplicationMetaData" />
+
+		<!-- SYSTEM -->
+		<handler objectClass="SecurityManager" handlerClass="EyeosRegisterXMLMetaHandler" metaDataClass="BasicMetaData" />
+
+		<!-- This entry must be the last one -->
+		<handler objectClass="EyeObject" handlerClass="DefaultEyeObjectMetaHandler" metaDataClass="BasicMetaData" />
+	</handlers>
+</conf>

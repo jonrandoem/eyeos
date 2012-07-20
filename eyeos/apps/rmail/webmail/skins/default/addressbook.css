@@ -1,0 +1,297 @@
+/***** RoundCube|Mail address book task styles *****/
+
+#abooktoolbar
+{
+  position: absolute;
+  top: 45px;
+  left: 225px;
+  height: 35px;
+}
+
+#abooktoolbar a
+{
+  padding-right: 10px;
+}
+
+#abooktoolbar a.button,
+#abooktoolbar a.buttonPas,
+#abooktoolbar span.separator {
+  display: block;
+  float: left;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin-right: 10px;
+  overflow: hidden;
+  background: url(images/abook_toolbar.png) 0 0 no-repeat transparent;
+  opacity: 0.99; /* this is needed to make buttons appear correctly in Chrome */
+}
+
+#abooktoolbar a.buttonPas {
+  opacity: 0.35;
+}
+
+#abooktoolbar a.addcontactSel {
+  background-position: 0 -32px;
+}
+
+#abooktoolbar a.compose {
+  background-position: -32px 0;
+}
+
+#abooktoolbar a.composeSel {
+  background-position: -32px -32px;
+}
+
+#abooktoolbar a.delete {
+  background-position: -64px 0;
+}
+
+#abooktoolbar a.deleteSel {
+  background-position: -64px -32px;
+}
+
+#abooktoolbar a.import {
+  background-position: -96px 0;
+}
+
+#abooktoolbar a.importSel {
+  background-position: -96px -32px;
+}
+
+#abooktoolbar a.export {
+  background-position: -128px 0;
+}
+
+#abooktoolbar a.exportSel {
+  background-position: -128px -32px;
+}
+
+#abooktoolbar span.separator {
+  width: 5px;
+  background-image: url(images/abook_toolbar.png);
+  background-position: -162px 0;
+}
+
+#abookcountbar
+{
+  position: absolute;
+  bottom: 6px;
+  left: 225px;
+  width: 240px;
+  height: 20px;
+  text-align: left;
+}
+
+#abookcountbar span
+{
+  font-size: 11px;
+  color: #333333;
+}
+
+#addressscreen
+{
+  position: absolute;
+  top: 85px;
+  right: 20px;
+  bottom: 30px;
+  left: 225px;
+}
+
+#directorylistbox
+{
+  position: absolute;
+  top: 85px;
+  bottom: 30px;
+  left: 20px;
+  width: 195px;
+  border: 1px solid #999999;
+  background-color: #F9F9F9;
+  overflow: hidden;
+}
+
+#directorylistwarp
+{
+  position: absolute;
+  top: 20px;
+  bottom: 22px;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
+
+#groups-title
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#directorylistbox input
+{
+  display: absolute;
+  margin: 2px;
+}
+
+#directoylistbuttons
+{
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 22px;
+  border-top: 1px solid #999;
+  background: url('images/listheader.gif') top left repeat-x #CCC;
+}
+
+#directoylistbuttons a.button,
+#directoylistbuttons a.buttonPas
+{
+  display: block;
+  float: left;
+  width: 34px;
+  height: 22px;
+  padding: 0px;
+  margin: 0;
+  overflow: hidden;
+  background: url('images/icons/groupactions.png') 0 0 no-repeat transparent;
+  opacity: 0.99; /* this is needed to make buttons appear correctly in Chrome */
+}
+
+#directoylistbuttons a.groupactions {
+  background-position: 0 -26px;
+}
+
+#directoylistbuttons a.buttonPas {
+  opacity: 0.35;
+}
+
+#addresslist
+{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  border: 1px solid #999999;
+  background-color: #F9F9F9;
+  overflow: auto;
+}
+
+#contactgroupslist
+{
+  border-top: 1px solid #999;
+}
+
+#importbox
+{
+  position: absolute;
+  top: 85px;
+  bottom: 40px;
+  left: 20px;
+  right: 20px;
+  border: 1px solid #999999;
+  background-color: #F2F2F2;
+  padding-bottom: 4ex;
+  overflow: auto;
+}
+
+#addresslist
+{
+  left: 0px;
+  width: 280px;
+}
+
+#importbox a
+{
+  color: blue;
+}
+
+#directorylist
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+}
+
+#directorylist li
+{
+  display: block;
+  font-size: 11px;
+  background: url(images/icons/folders.png) 5px -108px no-repeat;
+  border-bottom: 1px solid #EBEBEB;
+  white-space: nowrap;
+}
+
+#directorylist li a
+{
+  cursor: default;
+  display: block;
+  padding-left: 25px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+#directorylist li.contactgroup
+{
+  background-position: 5px -144px;
+}
+
+#directorylist li.selected
+{
+  background-color: #929292;
+  border-bottom: 1px solid #898989;
+}
+
+#directorylist li.selected a
+{
+  color: #FFF;
+  font-weight: bold;
+}
+
+#directorylist li.droptarget
+{
+  background-color: #FFFFA6;
+}
+
+#contacts-table
+{
+  width: 100%;
+  table-layout: fixed;
+}
+
+#contacts-table tbody td
+{
+  cursor: default;
+}
+
+#contacts-box
+{
+  position: absolute;
+  top: 0px;
+  left: 290px;
+  right: 0px;
+  bottom: 0px;
+  border: 1px solid #999999;
+  overflow: hidden;
+}
+
+body.iframe,
+#contact-frame
+{
+  background-color: #F2F2F2;
+}
+
+#contact-frame
+{
+  border: none;
+}
+
+#contact-details table td.title
+{
+  font-weight: bold;
+  text-align: right;
+}

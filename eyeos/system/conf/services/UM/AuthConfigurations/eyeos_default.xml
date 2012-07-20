@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<authConfiguration>
+	<appEntry name="eyeos-login">
+		<module name="EyeosSQLLoginModule" flag="requisite" />
+		<!--<module name="ModuleName" flag="requisite-required-sufficient-optional" options="myOption=myValue" /> -->
+	</appEntry>
+</authConfiguration>

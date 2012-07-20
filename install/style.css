@@ -1,0 +1,103 @@
+root { 
+    display: block;
+}
+
+body {
+    background:url("a1.gif") repeat-x scroll 0 0 #F9F9F7;
+    font-family:Arial, Helvetica;
+}
+
+.wrapper {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    box-shadow:10px 10px 20px #777;
+    -webkit-box-shadow:10px 10px 20px #777;
+    -moz-box-shadow: 10px 10px 20px #777;
+    width:900px;
+    background-color:white;
+    height:550px;
+    margin:0 auto;
+    margin-top:70px;
+}
+
+.topbar {
+    width:900px;
+    height:100px;
+}
+
+.logo {
+    margin:25px;
+    float:right;
+}
+
+.logotext {
+    float:left;
+    margin:25px;
+    margin-top:35px;
+    font-size:20pt;
+    color:#555555;
+}
+
+.sidelist li {
+    list-style-type:none;
+    padding-left:15px;
+    margin-bottom:5px;
+}
+
+.sidelist {
+    margin-top:20px;
+    margin-left:20px;
+    width:165px;
+    padding-left:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-right:1px dashed black;
+}
+
+.sidebar {
+    float:left;
+}
+
+.content {
+    margin-top:30px;
+    margin-right:20px;
+    border:0px;
+    width:640px;
+    height:395px;
+    float:right;
+    overflow:auto;
+    overflow-x:hidden;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.bigtitle {
+    font-size:20px;
+}
+
+.explaintext {
+    
+}
+
+a {
+    text-decoration:none;
+    border:0px;
+}
+
+.textok {
+    color:green;
+}
+
+.textno {
+    color:red;
+}
+
+.textoptional {
+    color:orange;
+}
+
+.box {
+    
+}

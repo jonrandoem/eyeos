@@ -1,0 +1,14 @@
+lang['User'] = 'Korisnik';
+lang['Users:'] = 'Korisnici: ';
+lang['Search'] = 'Pretraži';
+lang['Create'] = 'Napravi';
+lang['Delete'] = 'Obriši';
+lang['Save'] = 'Sačuvaj';
+lang['Username'] = 'Korisničko ime';
+lang['First Name'] = 'Ime';
+lang['Last Name'] = 'Prezime';
+lang['Are you sure you want to delete this user?'] = 'Da li ste sigurni da želite obrisati ovog korisnika?';
+lang['Incorrect field username, you should provide a valid username'] = 'Pogrešno korisničko ime, molimo unesite tačno';
+lang['Incorrect field email, you should provide a valid mail'] = 'Pogrešan email, molimo unesite tačni';
+lang['Empty mail'] = 'Prazan mail';
+lang['Incorrect mail'] = 'Pogrešan mail';

@@ -1,0 +1,9 @@
+lang['Register'] = 'Registreer';
+lang['Name'] = 'Naam';
+lang['Surname: '] = 'Van';
+lang['Username'] = 'Gebruikers Naam';
+lang['Password'] = 'Wagwoord';
+lang['Repeat password'] = 'Herhaal Wagwoord';
+lang['Email'] = 'ePos';
+lang['Please fill in all fields.'] = 'Vul asseblief al die velde in';
+lang['Given passwords do not match, please try again'] = 'Gegewe wagwoord verskil, probeer asseblief weer';

@@ -1,0 +1,12 @@
+lang['Name of the new link'] = '';
+lang['Web address to link (URL)'] = '';
+lang['Size of the window'] = '';
+lang['Icon for the link'] = '';
+lang['Select icon'] = '';
+lang['Width: '] = '';
+lang['Height: '] = '';
+lang['Preview'] = '';
+lang['Create'] = '';
+lang['You should provide a link name!'] = '';
+lang['Create new link...'] = '';
+lang['This link will open in new window'] = '';

@@ -1,0 +1,9 @@
+lang['Register'] = 'Registrovanje';
+lang['Name'] = 'Ime';
+lang['Surname: '] = 'Prezime:';
+lang['Username'] = 'Korisničko ime';
+lang['Password'] = 'Lozinka';
+lang['Repeat password'] = 'Ponovite lozinku';
+lang['Email'] = 'E-pošta';
+lang['Please fill in all fields.'] = 'Molimo vas popunite sva polja.';
+lang['Given passwords do not match, please try again'] = 'Date lozinke se ne podudaraju, molimo vas pokušajte ponovo';

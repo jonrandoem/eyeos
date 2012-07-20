@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<meta>
+  <entry key="eyeos.application.name">Documents</entry>
+  <entry key="eyeos.application.author">eyeOS Team</entry>
+  <entry key="eyeos.application.version">1.0</entry>
+  <entry key="eyeos.application.description">Create office documents</entry>
+  <entry key="eyeos.application.license">AGPL</entry>
+  <entry key="eyeos.application.category">Office</entry>
+  <entry key="eyeos.application.iconUrl">sys:///extern/images/48x48/apps/okteta.png</entry>
+  <entry key="eyeos.application.taskBarIconUrl">sys:///extern/images/16x16/apps/okteta.png</entry>
+  <entry key="eyeos.application.systemParameters" type="array">
+  	<entry key="listable">true</entry>
+  	<entry key="owner">root</entry>
+  	<entry key="group">users</entry>
+  	<entry key="permissions">---x--x--x</entry>
+  	<entry key="anonymous">false</entry>
+  	<entry key="suid">false</entry>
+  </entry>
+</meta>

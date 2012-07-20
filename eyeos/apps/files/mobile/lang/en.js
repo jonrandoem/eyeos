@@ -1,0 +1,1 @@
+lang['This folder is empty'] = 'This folder is empty';

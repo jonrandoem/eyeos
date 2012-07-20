@@ -1,0 +1,12 @@
+lang['Name of the new link'] = 'নতুন লিংকের নাম';
+lang['Web address to link (URL)'] = 'লিংকের ওয়েব ঠিকানা (URL)';
+lang['Size of the window'] = 'উইন্ডোর আকার';
+lang['Icon for the link'] = 'লিংকের জন্য আইকন';
+lang['Select icon'] = 'আইকন নির্বাচন কর';
+lang['Width: '] = 'প্রস্থঃ';
+lang['Height: '] = 'উচ্চতাঃ';
+lang['Preview'] = 'প্রাকবীক্ষণ';
+lang['Create'] = 'তৈরি কর ';
+lang['You should provide a link name!'] = 'লিংকটির একটি নাম তো লিখুন !';
+lang['Create new link...'] = 'নতুন লিংক তৈরি কর..‌';
+lang['This link will open in new window'] = 'এই লিংকটি নতুন একটি উইন্ডোতে খুলবে।';

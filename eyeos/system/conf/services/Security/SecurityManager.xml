@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conf>
+	<!-- Maybe some configuration stuffs here -->
+		
+	<policies>
+		<!-- ##################################################################
+									VIRTUAL FILES
+		################################################################### -->
+		<policy objectClass="EyeUserFile">
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="admin" />
+			</handler>
+			<handler class="SystemGroupSecurityHandler" flag="requisite">
+				<param name="groups" value="vfs" />
+			</handler>
+			<handler class="ShareableObjectSecurityHandler" flag="sufficient" />
+			<handler class="EyeosFileSecurityHandler" flag="required" />
+		</policy>
+		
+		<policy objectClass="EyeUserConfFile">
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="admin" />
+			</handler>
+			<handler class="SystemGroupSecurityHandler" flag="requisite">
+				<param name="groups" value="vfs" />
+			</handler>
+			<handler class="URLSecurityHandler" flag="sufficient">
+				<param name="policy" value="deny-allow" />
+				<param name="pathSeparator" value="," />
+				<param name="actions" value="read" />
+				<param name="allow" value="user-conf://*/public, user-conf://*/public/-" />
+			</handler>
+			<handler class="EyeosFileSecurityHandler" flag="required" />
+		</policy>
+		
+		<policy objectClass="EyeWorkgroupFile">
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="admin" />
+			</handler>
+			<handler class="SystemGroupSecurityHandler" flag="requisite">
+				<param name="groups" value="vfs" />
+			</handler>
+			<handler class="EyeosFileSecurityHandler" flag="sufficient" />
+			<handler class="WorkgroupFileSecurityHandler" flag="required" />
+		</policy>
+		
+		<policy objectClass="EyeWorkgroupConfFile">
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="admin" />
+			</handler>
+			<handler class="SystemGroupSecurityHandler" flag="requisite">
+				<param name="groups" value="vfs" />
+			</handler>
+			<handler class="URLSecurityHandler" flag="sufficient">
+				<param name="policy" value="deny-allow" />
+				<param name="pathSeparator" value="," />
+				<param name="actions" value="read" />
+				<param name="allow" value="workgroup-conf://*/public, workgroup-conf://*/public/-" />
+			</handler>
+			<handler class="EyeosFileSecurityHandler" flag="sufficient" />
+			<handler class="WorkgroupFileSecurityHandler" flag="required" />
+		</policy>
+		
+		<policy objectClass="EyeSysFile">
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="admin" />
+			</handler>
+			<handler class="SystemGroupSecurityHandler" flag="requisite">
+				<param name="groups" value="vfs" />
+			</handler>
+			<handler class="URLSecurityHandler" flag="requisite">
+				<param name="policy" value="allow-deny" />
+				<param name="pathSeparator" value="," />
+				<param name="deny" value="sys:///users, sys:///users/-, sys:///system/conf, sys:///system/conf/-, sys:///workgroups, sys:///workgroups/-" />
+			</handler>
+			<handler class="EyeosFileSecurityHandler" flag="required" />
+		</policy>
+		
+		<!-- The following entry must be the last one of the section -->
+		<policy objectClass="AbstractEyeosVirtualFile">
+			<handler class="SystemGroupSecurityHandler" flag="requisite">
+				<param name="groups" value="vfs" />
+			</handler>
+		</policy>
+		
+		<!-- ##################################################################
+									REAL FILES
+		################################################################### -->
+		<policy objectClass="EyeLocalFile">
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="admin" />
+			</handler>
+			<handler class="SystemGroupSecurityHandler" flag="requisite">
+				<param name="groups" value="lfs" />
+			</handler>
+			<handler class="URLSecurityHandler" flag="requisite">
+				<param name="policy" value="allow-deny" />
+				<param name="pathsSeparator" value="," />
+				<param name="deny" value="./.., ./../-" />
+			</handler>
+		</policy>
+		
+		<policy objectClass="EyeFTPFile">
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="admin" />
+			</handler>
+			<handler class="SystemGroupSecurityHandler" flag="requisite">
+				<param name="groups" value="rfs" />
+			</handler>
+		</policy>
+		
+		<!-- ##################################################################
+									APPLICATIONS
+		################################################################### -->
+		<policy objectClass="EyeosApplicationDescriptor">
+			<handler class="SystemGroupSecurityHandler" flag="requisite">
+				<param name="groups" value="exec" />
+			</handler>
+			<handler class="EyeosApplicationSecurityHandler" flag="requisite" />
+		</policy>
+		<policy objectClass="WorkgroupsExecModule">
+			<handler class="SystemGroupSecurityHandler" flag="requisite">
+				<param name="groups" value="wg" />
+			</handler>
+		</policy>
+		
+		<!-- ##################################################################
+								USERS/GROUPS MANAGEMENT
+		################################################################### -->
+		<policy objectClass="AbstractEyeosWorkgroup">
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="admin" />
+			</handler>
+			<handler class="EyeosWorkgroupSecurityHandler" flag="requisite" />
+		</policy>
+		
+		<policy objectClass="EyeosUserWorkgroupAssignation">
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="admin" />
+			</handler>
+			<handler class="EyeosWorkgroupSecurityHandler" flag="requisite" />
+		</policy>
+		
+		<policy objectClass="AbstractEyeosPrincipal">
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="admin" />
+			</handler>
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="um" />
+			</handler>
+			<handler class="EyeosUMSecurityHandler" flag="required" />
+			<!-- Here we should have a ACLHandler entry that allows only some users to modify some groups/users -->
+		</policy>
+		
+		<policy objectClass="EyeosPrincipalGroupAssignation">
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="admin" />
+			</handler>
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="um" />
+			</handler>
+			<handler class="EyeosUMAssignationSecurityHandler" flag="required" />
+			
+			<!-- TODO -->
+			
+			<!-- Here we should have a ACLHandler entry that allows only some users to modify some groups/users -->
+		</policy>
+		
+		<!-- The following entry must be the last one of the section -->
+		<policy objectClass="IPrincipal">
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="admin" />
+			</handler>
+			<handler class="SystemGroupSecurityHandler" flag="requisite">
+				<param name="groups" value="um" />
+			</handler>
+		</policy>
+		
+		<!-- ##################################################################
+									SHARING
+		################################################################### -->
+		<policy objectClass="IShareable">
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="admin" />
+			</handler>
+			<handler class="ShareableObjectSecurityHandler" flag="requisite" />
+		</policy>
+		
+		<!-- ##################################################################
+									METADATA
+		################################################################### -->
+		<policy objectClass="VirtualFileMetaData">
+			<handler class="SystemGroupSecurityHandler" flag="requisite">
+				<param name="groups" value="vfs" />
+			</handler>
+			<handler class="EyeosWorkgroupFileMetaDataSecurityHandler" flag="sufficient" />
+			<handler class="EyeosFileMetaDataSecurityHandler" flag="requisite" />
+		</policy>
+		
+		<policy objectClass="WorkgroupMetaData">
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="admin" />
+			</handler>
+			<handler class="EyeosWorkgroupMetaDataSecurityHandler" flag="requisite" />
+		</policy>
+		
+		<policy objectClass="PrincipalMetaData">
+			<handler class="EyeosUserMetaDataSecurityHandler" flag="requisite" />
+		</policy>
+		
+		<!-- ##################################################################
+									PROCESSES
+		################################################################### -->
+		<policy objectClass="Process">
+			<handler class="SystemGroupSecurityHandler" flag="sufficient">
+				<param name="groups" value="root" />
+			</handler>
+			<handler class="ProcessSecurityHandler" flag="requisite" />
+		</policy>
+		<!-- ##################################################################
+									Group Calendars
+		################################################################### -->
+		<policy objectClass="CalendarManager">			
+			<handler class="WorkgroupCalendarSecurityHandler" flag="required" />
+		</policy>		
+	</policies>
+</conf>

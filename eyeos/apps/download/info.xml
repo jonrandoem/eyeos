@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<meta>
+  <entry key="eyeos.application.name">Download</entry>
+  <entry key="eyeos.application.author">eyeOS Team</entry>
+  <entry key="eyeos.application.version">1.0</entry>
+  <entry key="eyeos.application.description">Download files to local system</entry>
+  <entry key="eyeos.application.license">AGPL</entry>
+  <entry key="eyeos.application.category">System</entry>
+  <!-- <entry key="eyeos.application.iconUrl">sys:///extern/images/48x48/apps/accessories-text-editor.png</entry>
+  <entry key="eyeos.application.iconPath">[Path of the icon, relative to the application directory]</entry>
+  <entry key="eyeos.application.iconData">[Base64 encoded icon data]</entry> -->
+  <entry key="eyeos.application.systemParameters" type="array">
+  	<entry key="listable">false</entry>
+  	<entry key="owner">root</entry>
+  	<entry key="group">users</entry>
+  	<entry key="permissions">---x--x--x</entry>
+  	<entry key="anonymous">false</entry>
+  	<entry key="suid">false</entry>
+  </entry>
+</meta>

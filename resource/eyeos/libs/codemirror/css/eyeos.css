@@ -1,0 +1,10 @@
+.CodeMirror-line-numbers {
+	background-color: #eeeeee;
+	color: #aaaaaa;
+	font-family: monospace;
+	font-size: 10pt;
+	margin-left: 6px;
+	padding: 0.4em;
+	padding-left: 0.8em;
+	text-align: right;
+}

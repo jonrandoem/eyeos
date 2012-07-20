@@ -1,0 +1,9 @@
+lang['Register'] = 'ਪੰਜੀਕਰਨ ';
+lang['Name'] = 'ਨਾਮ';
+lang['Surname: '] = 'ਗੋਤ ';
+lang['Username'] = 'ਉਪਭੋਗਤਾ ਦਾ ਨਾਮ';
+lang['Password'] = 'ਗੁਪਤ ਸ਼ਬਦ ';
+lang['Repeat password'] = 'ਗੁਪਤ ਸ਼ਬਦ ਦੋਬਾਰਾ ਭਰੋ ';
+lang['Email'] = 'ਈ-ਮੇਲ ';
+lang['Please fill in all fields.'] = 'ਕਿਰਪਾ ਕਰਕੇ ਸਾਰੇ ਵਿਕਲਪ ਭਰੋ ';
+lang['Given passwords do not match, please try again'] = 'ਪਛਾਣ ਸ਼ਬਦ ਠੀਕ ਨਹੀ ਹੈ,  ਕਿਰਪਾ ਦੋਬਾਰਾ ਭਰੋ ';

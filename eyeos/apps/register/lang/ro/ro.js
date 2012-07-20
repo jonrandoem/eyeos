@@ -1,0 +1,9 @@
+lang['Register'] = 'Înregistrare';
+lang['Name'] = 'Numele';
+lang['Surname: '] = 'Prenumele';
+lang['Username'] = 'Username';
+lang['Password'] = 'Parola';
+lang['Repeat password'] = 'Repetă parola';
+lang['Email'] = 'Email';
+lang['Please fill in all fields.'] = 'Trebuie să completezi toate câmpurile.';
+lang['Given passwords do not match, please try again'] = 'Parolele introduse nu se potrivesc, mai încearcă';

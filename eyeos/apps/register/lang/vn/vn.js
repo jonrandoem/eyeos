@@ -1,0 +1,9 @@
+lang['Register'] = 'Đăng ký';
+lang['Name'] = 'Tên';
+lang['Surname: '] = 'Họ:';
+lang['Username'] = 'Tên đăng nhập';
+lang['Password'] = 'Mật khẩu';
+lang['Repeat password'] = 'Nhập lại mật khẩu';
+lang['Email'] = 'Thư điện tử';
+lang['Please fill in all fields.'] = 'Nhập thông tin đầy đủ vào các ô.';
+lang['Given passwords do not match, please try again'] = 'Mật khẩu không hợp lệ, vui lòng nhập lại!';

@@ -1,0 +1,9 @@
+lang['Register'] = 'ثبت نام';
+lang['Name'] = 'نام';
+lang['Surname: '] = 'نام خانوادگی';
+lang['Username'] = 'نام کاربری';
+lang['Password'] = 'کلمه عبور';
+lang['Repeat password'] = 'تکرار کلمه عبور';
+lang['Email'] = 'ایمیل';
+lang['Please fill in all fields.'] = 'لطفاً تمام فیلدها را پر کنید.';
+lang['Given passwords do not match, please try again'] = 'کلمات عبور وارد شده هماهنگی ندارند، لطفاً مجدداً امتحان کنید.';

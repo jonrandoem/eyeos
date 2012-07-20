@@ -1,0 +1,12 @@
+lang['Name of the new link'] = '새 링크 이름';
+lang['Web address to link (URL)'] = '링크할 웹주소(URL)';
+lang['Size of the window'] = '창 크기';
+lang['Icon for the link'] = '링크 아이콘';
+lang['Select icon'] = '아이콘 선택';
+lang['Width: '] = '너비:';
+lang['Height: '] = '높이:';
+lang['Preview'] = '미리보기';
+lang['Create'] = '생성';
+lang['You should provide a link name!'] = '링크 이름을 입력하세요!';
+lang['Create new link...'] = '새 링크 만들기..';
+lang['This link will open in new window'] = '이 링크는 새창으로 열립니다.';

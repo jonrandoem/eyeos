@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conf>
+	<locatorClassName>DefaultUserFileLocator</locatorClassName>
+	<handlerClassName>EyeUserFile</handlerClassName>
+	<mountpointsManagement>
+		<handlerClassName>DefaultXMLUserMountPointsManager</handlerClassName>
+		<parameters>
+			<!-- Example for a database -->
+			<host>myhost</host>
+			<port>38129</port>
+			<etc>othervalue</etc>
+		</parameters>
+	</mountpointsManagement>
+	<parameters>
+		<param1>value1</param1>
+		<param2>value2</param2>
+	</parameters>
+</conf>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<meta>
+  <entry key="eyeos.application.name">Register</entry>
+  <entry key="eyeos.application.author">eyeOS Team</entry>
+  <entry key="eyeos.application.version">1.0</entry>
+  <entry key="eyeos.application.description">Quickly register a new user in the system</entry>
+  <entry key="eyeos.application.license">AGPL</entry>
+  <entry key="eyeos.application.category">Core</entry>
+  <entry key="eyeos.application.systemParameters" type="array">
+  	<entry key="listable">false</entry>
+  	<entry key="owner">_register</entry>
+  	<entry key="group">sys</entry>
+  	<entry key="permissions">---x--x--x</entry>
+  	<entry key="anonymous">false</entry>
+  	<entry key="suid">true</entry>
+  </entry>
+</meta>

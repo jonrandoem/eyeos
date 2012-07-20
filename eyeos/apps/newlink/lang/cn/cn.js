@@ -1,0 +1,12 @@
+lang['Name of the new link'] = '新链接名称';
+lang['Web address to link (URL)'] = '网址链接';
+lang['Size of the window'] = '窗口大小';
+lang['Icon for the link'] = '链接图标';
+lang['Select icon'] = '选择图标';
+lang['Width: '] = '宽';
+lang['Height: '] = '高';
+lang['Preview'] = '预览';
+lang['Create'] = '创建';
+lang['You should provide a link name!'] = '你应提供一个链接名';
+lang['Create new link...'] = '创建新链接';
+lang['This link will open in new window'] = '链接将在新窗口中打开';

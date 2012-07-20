@@ -1,0 +1,12 @@
+lang['Name of the new link'] = 'Nom del nou ellaç';
+lang['Web address to link (URL)'] = 'Adreça Web de l\'enllaç';
+lang['Size of the window'] = 'Mida de la finestra';
+lang['Icon for the link'] = 'Icona de l\'enllaç';
+lang['Select icon'] = 'Seleciona una icona';
+lang['Width: '] = 'Amplada';
+lang['Height: '] = 'Alçada';
+lang['Preview'] = 'Previsualitzar';
+lang['Create'] = 'Crear';
+lang['You should provide a link name!'] = 'S\'ha de proporcionar  un nom d\'enllaç';
+lang['Create new link...'] = 'Crear un nou enlllaç';
+lang['This link will open in new window'] = 'Aquet enllaç s’obrirà en una nova finestra ';

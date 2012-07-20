@@ -1,0 +1,1 @@
+lang['Calculator'] = 'Máy tính';

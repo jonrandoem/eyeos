@@ -1,0 +1,65 @@
+/* CSS hacks for IE versions 5,6 */
+
+taskbar
+{
+  background: url(images/taskbar.gif) top right no-repeat;
+}
+
+img
+{
+  behavior: url(skins/default/pngbehavior.htc);
+}
+
+#message div.notice,
+#message div.error,
+#message div.warning,
+#message div.confirmation,
+#remote-objects-message
+{
+  background-image: url(images/display/icons.gif);
+}
+
+#messagemenu li a,
+#messagelist tr td div.expanded,
+#messagelist tr td div.collapsed
+{
+  background-image: url(images/messageactions.gif);
+}
+
+#mailboxlist li
+{
+  background-image: url(images/icons/folders.gif);
+}
+
+#attachment-list
+{
+  height: expression(Math.min(16, parseInt(document.documentElement.clientHeight))+'px');
+}
+
+#messagetoolbar a
+{
+  display: block;
+  float: left;
+  padding-right: 10px;
+}
+
+#messagetoolbar a.button,
+#messagetoolbar a.buttonPas {
+  background-image: url(images/mail_toolbar.gif);
+}
+
+#abooktoolbar a.button,
+#abooktoolbar a.buttonPas,
+#abooktoolbar span.separator {
+  background-image: url(images/abook_toolbar.gif);
+}
+
+ul.toolbarmenu li a
+{
+  clear: left;
+}
+
+ul.toolbarmenu li.separator_below
+{
+  padding-bottom: 8px;
+}

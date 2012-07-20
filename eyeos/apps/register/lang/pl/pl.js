@@ -1,0 +1,9 @@
+lang['Register'] = 'Zarejestruj się';
+lang['Name'] = 'Imię';
+lang['Surname: '] = 'Nazwisko';
+lang['Username'] = 'Nazwa użytkownika';
+lang['Password'] = 'Hasło';
+lang['Repeat password'] = 'Powtórz hasło';
+lang['Email'] = 'Email';
+lang['Please fill in all fields.'] = 'Proszę wypełnić wszystkie pola.';
+lang['Given passwords do not match, please try again'] = 'Hasła do siebie nie pasują, spróbuj ponownie.';

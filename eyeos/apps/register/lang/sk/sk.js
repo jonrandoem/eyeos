@@ -1,0 +1,9 @@
+lang['Register'] = 'Registrovať';
+lang['Name'] = 'Meno';
+lang['Surname: '] = 'Priezvisko';
+lang['Username'] = 'Prihlasovacie meno';
+lang['Password'] = 'Heslo';
+lang['Repeat password'] = 'Zopakujte heslo';
+lang['Email'] = 'Email';
+lang['Please fill in all fields.'] = 'Vyplňte všetky polia prosím.';
+lang['Given passwords do not match, please try again'] = 'Zadané heslá sa nezhodujú, zopakujte zadanie prosím';

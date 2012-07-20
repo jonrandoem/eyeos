@@ -1,0 +1,61 @@
+# @(#$Id: mimeview,v 1.15 2008/09/01 20:39:40 dockes Exp $  (C) 2004 J.F.Dockes
+
+## ##########################################
+# External viewers, launched by the recoll GUI when you click on a result
+# 'edit' link
+
+[view]
+# Pseudo entry used if the 'use desktop' preference is set in the GUI
+application/x-all = xdg-open %f
+
+application/x-kword = kword %f
+application/x-abiword = abiword %f
+
+application/msword = openoffice %f
+application/ogg = xmms %f
+application/pdf  = xpdf %f
+application/postscript = gv %f
+application/vnd.ms-excel = openoffice %f
+application/vnd.ms-powerpoint = openoffice %f
+application/vnd.openxmlformats-officedocument.wordprocessingml.document = \
+ openoffice %f
+application/vnd.openxmlformats-officedocument.wordprocessingml.template = \
+ openoffice %f
+application/vnd.openxmlformats-officedocument.presentationml.template = \
+ openoffice %f
+application/vnd.openxmlformats-officedocument.presentationml.presentation = \
+ openoffice %f
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet = \
+ openoffice %f
+application/vnd.openxmlformats-officedocument.spreadsheetml.template =\
+ openoffice %f
+application/vnd.sun.xml.calc = openoffice %f
+application/vnd.sun.xml.calc.template = openoffice %f
+application/vnd.sun.xml.draw = openoffice %f
+application/vnd.sun.xml.draw.template = openoffice %f
+application/vnd.sun.xml.impress = openoffice %f
+application/vnd.sun.xml.impress.template = openoffice %f
+application/vnd.sun.xml.math = openoffice %f
+application/vnd.sun.xml.writer = openoffice %f
+application/vnd.sun.xml.writer.global = openoffice %f
+application/vnd.sun.xml.writer.template = openoffice %f
+application/vnd.wordperfect = openoffice %f
+application/x-fsdirectory = rox %f
+application/x-dvi = xdvi %f
+application/x-flac = xmms %f
+application/x-lyx = lyx %f
+application/x-scribus = scribus %f
+application/x-tex = gnuclient -q %f
+audio/mpeg = xmms %f
+image/jpeg = xv %f
+image/png = xv %f
+image/tiff = xv %f
+image/gif  = xv %f
+image/svg+xml = inkview %f
+image/vnd.djvu = djview %f
+# Or firefox -remote "openFile(%u)"
+text/html = firefox %u
+text/plain = gnuclient -q %f
+text/x-c = gnuclient -q %f
+text/x-html-sidux-man = konqueror %f
+#text/x-html-sidux-man = iceweasel %f

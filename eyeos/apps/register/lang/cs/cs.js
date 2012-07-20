@@ -1,0 +1,9 @@
+lang['Register'] = 'Registrace';
+lang['Name'] = 'Jméno';
+lang['Surname: '] = 'Příjmení:';
+lang['Username'] = 'Uživatelské jméno';
+lang['Password'] = 'Heslo';
+lang['Repeat password'] = 'Heslo znovu';
+lang['Email'] = 'Email';
+lang['Please fill in all fields.'] = 'Vyplňte všechna pole';
+lang['Given passwords do not match, please try again'] = 'Hesla si neodpovídají';

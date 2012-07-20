@@ -1,0 +1,9 @@
+lang['Register'] = '登録';
+lang['Name'] = '名';
+lang['Surname: '] = '姓';
+lang['Username'] = 'ユーザ名';
+lang['Password'] = 'パスワード';
+lang['Repeat password'] = 'パスワード再入力';
+lang['Email'] = 'Eメール';
+lang['Please fill in all fields.'] = '全ての項目に入力してください。';
+lang['Given passwords do not match, please try again'] = 'パスワードが一致しませんでした。再度入力してください。';

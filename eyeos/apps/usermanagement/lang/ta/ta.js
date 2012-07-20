@@ -1,0 +1,11 @@
+lang['User Management'] = 'உபயோகிப்பாளர்களை கட்டுபடுத்தும் இடம்';
+lang['User'] = 'உபயோகிப்பாளர்';
+lang['Users:'] = 'உபயோகிப்பாளர்கள்';
+lang['Search'] = 'தேடு';
+lang['Create'] = 'உருவாக்கு';
+lang['Delete'] = 'அழி';
+lang['Save'] = 'சேகரி';
+lang['Username'] = 'உபயோகிப்பாளர் பெயர்';
+lang['First Name'] = 'முதற் பெயர்';
+lang['Last Name'] = 'பிற் பெயர்';
+lang['Are you sure you want to delete this user?'] = 'இந்த உபயோகிப்பாளரை நீக்கி விடலாமா?';

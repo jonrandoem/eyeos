@@ -1,0 +1,9 @@
+lang['Register'] = 'Daftar';
+lang['Name'] = 'Nama';
+lang['Surname: '] = 'Nama Panggilan';
+lang['Username'] = 'Kode User';
+lang['Password'] = 'Kata Sandi';
+lang['Repeat password'] = 'Kata Sandi Lagi';
+lang['Email'] = 'Email';
+lang['Please fill in all fields.'] = 'Harap Isi Semua Kolom';
+lang['Given passwords do not match, please try again'] = 'Kata Sandi Tidak Cocok, Silahkan coba lagi';

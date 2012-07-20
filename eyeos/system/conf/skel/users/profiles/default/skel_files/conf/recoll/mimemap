@@ -1,0 +1,131 @@
+# @(#$Id: mimemap,v 1.31 2008/08/25 16:12:16 dockes Exp $  (C) 2004 J.F.Dockes
+# Recoll: associations of file name extensions to mime types
+
+.txt = text/plain
+.text = text/plain
+.d    = text/plain
+
+# Source files. Defining them as text/x-c will enable ext viewer. If
+# text/plain they will be somewhat indexed
+.cpp = text/x-c
+.h   = text/x-c
+.c   = text/x-c
+.cc  = text/x-c
+
+.rtf  = text/rtf
+
+.html = text/html
+.htm = text/html
+.shtml = text/html
+.php = text/html
+
+.pdf = application/pdf
+
+.ps = application/postscript
+.eps = application/postscript
+.ai = application/postscript
+
+.tex = application/x-tex
+.dvi = application/x-dvi
+
+.djvu = image/vnd.djvu
+.svg = image/svg+xml
+
+.gz = application/x-gzip
+.Z = application/x-gzip
+.bz2 = application/x-bzip2
+#.Z  = application/x-compress
+
+.doc = application/msword
+.ppt = application/vnd.ms-powerpoint
+.xls = application/vnd.ms-excel
+
+# OpenOffice / opendocument. We handle opendocument as old openoffice files
+# for now
+.sxc = application/vnd.sun.xml.calc
+.ods = application/vnd.sun.xml.calc
+.stc = application/vnd.sun.xml.calc.template
+.sxd = application/vnd.sun.xml.draw
+.std = application/vnd.sun.xml.draw.template
+.sxi = application/vnd.sun.xml.impress
+.odp = application/vnd.sun.xml.impress
+.sti = application/vnd.sun.xml.impress.template
+.sxm = application/vnd.sun.xml.math
+.sxw = application/vnd.sun.xml.writer
+.odt = application/vnd.sun.xml.writer
+.sxg = application/vnd.sun.xml.writer.global
+.stw = application/vnd.sun.xml.writer.template
+
+# ms openxml 
+.docm = application/vnd.ms-word.document.macroEnabled.12
+.docx = application/vnd.openxmlformats-officedocument.wordprocessingml.document
+.dotm = application/vnd.ms-word.template.macroEnabled.12
+.dotx = application/vnd.openxmlformats-officedocument.wordprocessingml.template
+.potm = application/vnd.ms-powerpoint.template.macroEnabled.12
+.potx = application/vnd.openxmlformats-officedocument.presentationml.template
+.ppam = application/vnd.ms-powerpoint.addin.macroEnabled.12
+.ppsm = application/vnd.ms-powerpoint.slideshow.macroEnabled.12
+.ppsx = application/vnd.openxmlformats-officedocument.presentationml.slideshow
+.pptm = application/vnd.ms-powerpoint.presentation.macroEnabled.12
+.pptx = application/vnd.openxmlformats-officedocument.presentationml.presentation
+.xlam = application/vnd.ms-excel.addin.macroEnabled.12
+.xlsb = application/vnd.ms-excel.sheet.binary.macroEnabled.12
+.xlsm = application/vnd.ms-excel.sheet.macroEnabled.12
+.xlsx = application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+.xltm = application/vnd.ms-excel.template.macroEnabled.12
+.xltx = application/vnd.openxmlformats-officedocument.spreadsheetml.template
+ 
+.abw = application/x-abiword
+.lyx = application/x-lyx
+.sla = application/x-scribus
+.scd = application/x-scribus
+
+.kwd = application/x-kword
+
+.wpd = application/vnd.wordperfect
+
+.rtf = text/rtf
+
+.mp3 = audio/mpeg
+.flac = application/x-flac
+.ogg = application/ogg
+
+.png = image/png
+.jpg = image/jpeg
+.jpeg = image/jpeg
+.gif = image/gif
+.tiff = image/tiff
+.tif  = image/tiff
+
+# A list of stuff that we don't want to touch at all (for now). Having the
+# suffixes listed in there speeds up things quite a lot by avoiding
+# unneeded decompression or 'file' calls. File names still get indexed if
+# indexallfilenames is set
+recoll_noindex =  .log.gz .md5 .map \
+       .m4 .tcl .awk \
+       .lib .dll .a \
+       .dat .bak .rdf .log .ini .msf .pid \
+       .gnm .gnumeric \
+       ,v ~ #
+
+# Special handling of .txt files inside ~/.gaim directory
+[~/.gaim]
+.txt = text/x-gaim-log
+
+# Special handling of sidux manual menu system
+[/usr/share/sidux-manual]
+.htm = text/x-html-sidux-man
+.html = text/x-html-sidux-man
+
+# Manual files. You may want to adjust the location for your system
+# We can't use the default text/troff type because this doesn't say
+# what macro set to use (groff -man)
+[/usr/share/man]
+.1 = text/x-man
+.2 = text/x-man
+.3 = text/x-man
+.4 = text/x-man
+.5 = text/x-man
+.6 = text/x-man
+.7 = text/x-man
+.8 = text/x-man

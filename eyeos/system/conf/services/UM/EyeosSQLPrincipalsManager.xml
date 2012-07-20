@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conf>
+	<!-- The following groups are automatically assigned to a new user -->
+	<defaultGroups>
+		<group name="exec" />
+		<group name="vfs" />
+		<group name="mnt" />
+		<group name="wg" />
+		<group name="wg-managers" />
+	</defaultGroups>
+</conf>

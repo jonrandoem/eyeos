@@ -1,0 +1,9 @@
+lang['Register'] = '注册';
+lang['Name'] = '名';
+lang['Surname: '] = '姓';
+lang['Username'] = '用户名';
+lang['Password'] = '密码';
+lang['Repeat password'] = '重复密码';
+lang['Email'] = '电子邮件';
+lang['Please fill in all fields.'] = '请填写所有信息';
+lang['Given passwords do not match, please try again'] = '密码不匹配，请重新输入';

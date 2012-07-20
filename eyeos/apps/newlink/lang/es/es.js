@@ -1,0 +1,12 @@
+lang['Name of the new link'] = 'Nombre del nuevo enlace';
+lang['Web address to link (URL)'] = 'Dirección web del enlace (URL)';
+lang['Size of the window'] = 'Tamaño de la ventana';
+lang['Icon for the link'] = 'Icono del enlace';
+lang['Select icon'] = 'Seleccionar icono';
+lang['Width: '] = 'Ancho:';
+lang['Height: '] = 'Alto:';
+lang['Preview'] = 'Previsualizar';
+lang['Create'] = 'Crear';
+lang['You should provide a link name!'] = '¡Debe proveer un nombre para el enlace!';
+lang['Create new link...'] = 'Crear nuevo enlace...';
+lang['This link will open in new window'] = 'Este enlace se abrirá en una nueva ventana';

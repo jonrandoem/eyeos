@@ -1,0 +1,9 @@
+lang['Register'] = 'Registrer deg';
+lang['Name'] = 'Fornavn';
+lang['Surname: '] = 'Etternavn';
+lang['Username'] = 'Brukernavn';
+lang['Password'] = 'Passord';
+lang['Repeat password'] = 'Gjenta passord';
+lang['Email'] = 'E-post';
+lang['Please fill in all fields.'] = 'Vennligst fyll inn alle feltene.';
+lang['Given passwords do not match, please try again'] = 'Passordene stemmer ikke med hverandre';

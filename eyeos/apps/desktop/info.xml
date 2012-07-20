@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<meta>
+  <entry key="eyeos.application.name">Desktop</entry>
+  <entry key="eyeos.application.author">eyeOS Team</entry>
+  <entry key="eyeos.application.version">1.0</entry>
+  <entry key="eyeos.application.description"></entry>
+  <entry key="eyeos.application.license">AGPL</entry>
+  <entry key="eyeos.application.category">Core</entry>
+  <entry key="eyeos.application.systemParameters" type="array">
+  	<entry key="listable">false</entry>
+  	<entry key="owner">root</entry>
+  	<entry key="group">users</entry>
+  	<entry key="permissions">---x--x--x</entry>
+    <entry key="anonymous">false</entry>
+  	<entry key="suid">false</entry>
+  </entry>
+   <entry key="eyeos.application.events.fired" type="array">
+     <entry>eyeos_people_deleteContact</entry>
+	 <entry>eyeos_people_confirmContact</entry>
+	 <entry>eyeos_people_requestRelationship</entry>
+	 <entry>eyeos_people_addTag</entry>
+	 <entry>eyeos_people_deleteTag</entry>
+	 <entry>eyeos_NSPeople_deleteContact</entry>
+	 <entry>eyeos_NSPeople_confirmContact</entry>
+	 <entry>eyeos_NSPeople_requestRelationship</entry>
+	 <entry>eyeos_NSPeople_addTag</entry>
+	 <entry>eyeos_NSPeople_deleteTag</entry>
+	 <entry>eyeos_application_toggleFavorite</entry>
+	 <entry>eyeos_workgroup_createGroup</entry>
+	 <entry>eyeos_workgroup_deleteGroup</entry>
+	 <entry>eyeos_workgroup_joinGroup</entry>
+	 <entry>eyeos_workgroup_leaveGroup</entry>
+	 <entry>eyeos_event_confirmContact</entry>
+	 <entry>eyeos_event_deleteContact</entry>
+  </entry>
+  <entry key="eyeos.application.events.listened" type="array">
+	 <entry>eyeos_people_deleteContact</entry>
+	 <entry>eyeos_people_confirmContact</entry>
+	 <entry>eyeos_people_requestRelationship</entry>
+	 <entry>eyeos_people_addTag</entry>
+	 <entry>eyeos_people_deleteTag</entry>
+	 <entry>eyeos_NSPeople_deleteContact</entry>
+	 <entry>eyeos_NSPeople_confirmContact</entry>
+	 <entry>eyeos_NSPeople_requestRelationship</entry>
+	 <entry>eyeos_NSPeople_addTag</entry>
+	 <entry>eyeos_NSPeople_deleteTag</entry>
+	 <entry>eyeos_application_toggleFavorite</entry>
+	 <entry>eyeos_workgroup_createGroup</entry>
+	 <entry>eyeos_workgroup_deleteGroup</entry>
+	 <entry>eyeos_workgroup_joinGroup</entry>
+	 <entry>eyeos_workgroup_leaveGroup</entry>
+	 <entry>eyeos_event_confirmContact</entry>
+	 <entry>eyeos_event_deleteContact</entry>
+     <entry>eyeos_events_newEvent</entry>
+  </entry>
+</meta>

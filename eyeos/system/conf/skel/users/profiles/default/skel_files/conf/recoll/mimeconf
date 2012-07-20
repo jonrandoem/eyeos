@@ -1,0 +1,215 @@
+# @(#$Id: mimeconf,v 1.41 2008/09/01 20:39:40 dockes Exp $  (C) 2004 J.F.Dockes
+
+# Recoll : associations of mime types to processing filters.
+# There are different sections for decompression, 'interning' for indexing
+# and preview, and external viewers
+
+## #######################################
+# Decompression: these types need a first pass to create a temp file to
+# work with. We use a script because uncompress utilities usually work in
+# place, which is not suitable. 
+#
+# The %t parameter will be substituted to the name of a temporary directory
+# by recoll. This directory is guaranteed empty when calling the filter
+#
+# The %f parameter will be substituted with the input file. 
+#
+# The script (ie: rcluncomp) must output the uncompressed file name on
+# stdout. 
+application/x-gzip  =  uncompress rcluncomp gunzip %f %t
+application/x-compress = uncompress rcluncomp gunzip %f %t
+application/x-bzip2 =  uncompress rcluncomp bunzip2 %f %t
+
+## ###################################
+# Filters for indexing and internal preview. 
+# The "internal" filters are hardwired in the c++ code.
+# The external "exec" filters are typically scripts. They output the
+# document in simple html format, have a look at the scripts.
+[index]
+application/msword = exec rcldoc
+application/ogg = exec rclogg
+application/pdf = exec rclpdf
+application/postscript = exec rclps
+application/vnd.ms-excel = exec rclxls
+application/vnd.ms-powerpoint = exec rclppt
+application/vnd.openxmlformats-officedocument.wordprocessingml.document = \
+ exec rclopxml
+application/vnd.openxmlformats-officedocument.wordprocessingml.template = \
+ exec rclopxml
+application/vnd.openxmlformats-officedocument.presentationml.template = \
+ exec rclopxml
+application/vnd.openxmlformats-officedocument.presentationml.presentation = \
+ exec rclopxml
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet = \
+ exec rclopxml
+application/vnd.openxmlformats-officedocument.spreadsheetml.template =\
+ exec rclopxml
+application/vnd.sun.xml.calc = exec rclsoff
+application/vnd.sun.xml.calc.template = exec rclsoff
+application/vnd.sun.xml.draw = exec rclsoff
+application/vnd.sun.xml.draw.template = exec rclsoff
+application/vnd.sun.xml.impress = exec rclsoff
+application/vnd.sun.xml.impress.template = exec rclsoff
+application/vnd.sun.xml.math = exec rclsoff
+application/vnd.sun.xml.writer = exec rclsoff
+application/vnd.sun.xml.writer.global = exec rclsoff
+application/vnd.sun.xml.writer.template = exec rclsoff
+application/vnd.wordperfect = exec rclwpd
+application/x-abiword = exec rclabw
+application/x-dvi = exec rcldvi
+application/x-flac = exec rclflac
+application/x-kword = exec rclkwd
+application/x-lyx = exec rcllyx
+application/x-scribus = exec rclscribus
+application/x-tex = exec rcltex
+audio/mpeg = exec rclid3
+image/gif = exec rclimg
+image/jpeg = exec rclimg
+image/png = exec rclimg
+image/tiff = exec rclimg
+image/vnd.djvu = exec rcldjvu
+image/svg+xml = exec rclsvg
+message/rfc822 = internal
+text/html  = internal 
+text/plain = internal 
+text/rtf = exec rclrtf
+text/x-gaim-log = exec rclgaim
+text/x-html-sidux-man = exec rclsiduxman
+text/x-mail = internal
+text/x-man = exec rclman
+
+## #############################################
+# Icons to be used in the result list if required by gui config
+[icons]
+application/msword = wordprocessing
+application/ogg = sownd
+application/pdf = pdf
+application/postscript = postscript
+application/vnd.ms-excel = spreadsheet
+application/vnd.ms-powerpoint = presentation
+application/vnd.openxmlformats-officedocument.wordprocessingml.document = \
+  wordprocessing
+application/vnd.openxmlformats-officedocument.wordprocessingml.template = \
+  wordprocessing
+application/vnd.openxmlformats-officedocument.presentationml.template = \
+ presentation
+application/vnd.openxmlformats-officedocument.presentationml.presentation = \
+ presentation
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet = \
+ spreadsheet
+application/vnd.openxmlformats-officedocument.spreadsheetml.template =\
+ spreadsheet
+application/vnd.sun.xml.calc = spreadsheet
+application/vnd.sun.xml.calc.template = spreadsheet
+application/vnd.sun.xml.draw = drawing
+application/vnd.sun.xml.draw.template = drawing
+application/vnd.sun.xml.impress = presentation
+application/vnd.sun.xml.impress.template = presentation
+application/vnd.sun.xml.writer = wordprocessing
+application/vnd.sun.xml.writer.global = wordprocessing
+application/vnd.sun.xml.writer.template = wordprocessing
+application/vnd.wordperfect = wordprocessing
+application/x-abiword = wordprocessing
+application/x-dvi = document
+application/x-flac = sownd
+application/x-fsdirectory = folder
+application/x-kword = wordprocessing
+application/x-lyx = wordprocessing
+application/x-scribus = document
+application/x-tex = wordprocessing
+audio/mpeg = sownd
+image/gif = image
+image/jpeg = image
+image/png = image
+image/tiff = image
+image/vnd.djvu = document
+image/svg+xml = drawing
+message/rfc822 = message
+text/html = html
+text/plain = txt
+text/x-c = source
+text/x-html-sidux-man = sidux-book
+text/x-mail = message
+text/x-man = document
+
+[categories]
+
+text = \
+      application/msword \
+      application/pdf \
+      application/postscript \
+      application/vnd.openxmlformats-officedocument.wordprocessingml.document \
+      application/vnd.openxmlformats-officedocument.wordprocessingml.template \
+      application/vnd.sun.xml.writer \
+      application/vnd.sun.xml.writer.global \
+      application/vnd.sun.xml.writer.template \
+      application/vnd.wordperfect \
+      application/x-abiword \
+      application/x-dvi \
+      application/x-kword \
+      application/x-lyx \
+      application/x-scribus \
+      application/x-tex \
+      image/vnd.djvu \
+      text/html \
+      text/plain \
+      text/rtf \
+      text/x-html-sidux-man \
+      text/x-man
+
+spreadsheet = \
+   application/vnd.ms-excel \
+   application/vnd.openxmlformats-officedocument.spreadsheetml.sheet \
+   application/vnd.openxmlformats-officedocument.spreadsheetml.template \
+   application/vnd.sun.xml.calc \
+   application/vnd.sun.xml.calc.template
+
+presentation = application/vnd.ms-powerpoint \
+  application/vnd.openxmlformats-officedocument.presentationml.template \
+  application/vnd.openxmlformats-officedocument.presentationml.presentation \
+  application/vnd.sun.xml.impress \
+  application/vnd.sun.xml.impress.template
+
+media = \
+      audio/mpeg \
+      application/ogg \
+      application/x-flac \
+      image/jpeg \
+      image/png \
+      image/tiff \
+      image/gif \
+
+message = message/rfc822 \
+	  text/x-gaim-log \
+	  text/x-mail \
+
+other = application/vnd.sun.xml.draw \
+        application/vnd.sun.xml.draw.template \
+        application/vnd.sun.xml.math \
+        application/x-fsdirectory \
+        image/svg+xml \
+
+
+[prefixes]
+
+# This allows extending the set of fields that recoll understand/searches. 
+# See the manual for exact usage.
+# Important: 
+#   - the field names MUST be all lowercase here. They can be anycased
+#     in the documents:
+#   - The extension field prefixes MUST begin with X and be all UPPERCASE.
+title = S
+caption = S
+subject = S
+
+author = A
+creator = A
+from = A
+
+keyword = K
+tag = K
+keywords = K
+tags = K
+
+# testing /example :
+recollspecialfield = XRCLSF

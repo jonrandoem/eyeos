@@ -1,0 +1,9 @@
+lang['Register'] = 'பதிவு செய்க';
+lang['Name'] = 'பெயர்';
+lang['Surname: '] = 'குடும்பப் பெயர்:';
+lang['Username'] = 'உபயோகிப்பாளர் பெயர்';
+lang['Password'] = 'கடவு சொல்';
+lang['Repeat password'] = 'கடவு சொல்லை திரும்ப பதிவு செய்க';
+lang['Email'] = 'மின்னஞ்சல் முகவரி';
+lang['Please fill in all fields.'] = 'தயவு செய்து அனைத்து விபரங்களையும் நிரப்பவும்.';
+lang['Given passwords do not match, please try again'] = 'உங்களது கடவு சொல் எங்களது பதிவுகளுடன் பொருந்தவில்லை, தயவு செய்து மீண்டும் முயற்சி செய்யவும்.';

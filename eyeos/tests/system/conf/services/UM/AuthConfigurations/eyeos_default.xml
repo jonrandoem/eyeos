@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<authConfiguration>
+	<appEntry name="init">
+		<module name="EyeosSQLLoginModule" flag="required" options="myOption1=myValue1" />
+	</appEntry>
+	<appEntry name="eyeos-login">
+		<module name="EyeosSQLLoginModule" flag="required" options="myOption1=myValue1" />
+	</appEntry>
+	<appEntry name="example">
+		<module name="EyeosSQLLoginModule" flag="required" options="myOption1=myValue1" />
+	</appEntry>
+</authConfiguration>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log4php:configuration xmlns:log4php="http://logging.apache.org/log4php/"
+	threshold="all" debug="false">
+	<appender name="defaultFile" class="LoggerAppenderDailyFile">
+		<param name="file" value="./system/conf/libs/log4php/logs/eyeos_%s.log" />
+		<layout class="LoggerLayoutPattern">
+			<param name="ConversionPattern" value="%d{ISO8601} [%p] %c: %m%n" />
+		</layout>
+	</appender>
+	<appender name="metricsFile" class="LoggerAppenderFile">
+		<param name="file" value="./system/conf/libs/log4php/logs/metrics.log" />
+		<layout class="LoggerLayoutPattern">
+			<param name="ConversionPattern" value="%d{ISO8601}: %m%n" />
+		</layout>
+	</appender>
+	<!-- EXAMPLE OF CONFIGURATION FOR A SOCKET APPENDER -->
+	<!-- <appender name="socket" class="LoggerAppenderSocket">
+		<param name="remoteHost" value="localhost" />
+		<layout class="LoggerLayoutPattern">
+			<param name="ConversionPattern" value="%d{ISO8601} [%p] %c: %m%n" />
+		</layout>
+	</appender> -->
+	
+	<!-- ROOT (default parameters for logging)  -->
+	<root additivity="false">
+		<level value="DEBUG" />
+		<appender_ref ref="defaultFile" />
+	</root>
+	
+	<!-- METRICS (see index.php)  -->
+	<logger name="root.metrics" additivity="false">
+		<level value="OFF" />
+		<appender_ref ref="metricsFile" />
+	</logger>
+	
+	
+	<!-- LIBRARIES -->
+	<logger name="system.libs.log4php" additivity="false">
+		<level value="WARN" />
+		<appender_ref ref="defaultFile" />
+	</logger>
+	
+	<!-- SERVICES -->
+	<logger name="system.services.FileSystem" additivity="false">
+		<level value="INFO" />
+		<appender_ref ref="defaultFile" />
+	</logger>
+	<logger name="system.services.MMap" additivity="false">
+		<level value="INFO" />
+		<appender_ref ref="defaultFile" />
+	</logger>
+	<logger name="system.services.Security" additivity="false">
+		<level value="INFO" />
+		<appender_ref ref="defaultFile" />
+	</logger>
+	<logger name="system.services.Storage" additivity="false">
+		<level value="WARN" />
+		<appender_ref ref="defaultFile" />
+	</logger>
+	<logger name="system.services.UM" additivity="false">
+		<level value="WARN" />
+		<appender_ref ref="defaultFile" />
+	</logger>
+	
+	<!-- FRAMEWORKS -->
+	<!-- Nothing at the moment -->
+	
+</log4php:configuration>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<meta>
+  <entry key="eyeos.application.name">Desktop</entry>
+  <entry key="eyeos.application.author">eyeOS Team</entry>
+  <entry key="eyeos.application.version">1.0</entry>
+  <entry key="eyeos.application.description"></entry>
+  <entry key="eyeos.application.license">AGPL</entry>
+  <entry key="eyeos.application.category">Core</entry>
+  <entry key="eyeos.application.systemParameters" type="array">
+  	<entry key="listable">false</entry>
+  	<entry key="owner">root</entry>
+  	<entry key="group">users</entry>
+  	<entry key="permissions">---x--x--x</entry>
+    <entry key="anonymous">false</entry>
+  	<entry key="suid">false</entry>
+  </entry>
+</meta>

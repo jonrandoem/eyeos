@@ -1,0 +1,12 @@
+lang['Name of the new link'] = 'Az új link neve';
+lang['Web address to link (URL)'] = 'Webcím (URL)';
+lang['Size of the window'] = 'Ablak mérete';
+lang['Icon for the link'] = 'A linkhez tartozó ikon';
+lang['Select icon'] = 'Ikon kiválasztása';
+lang['Width: '] = 'Szélesség:';
+lang['Height: '] = 'Magasság:';
+lang['Preview'] = 'Előnézet';
+lang['Create'] = 'Létrehozás';
+lang['You should provide a link name!'] = 'Meg kell adnia egy nevet a linknek!';
+lang['Create new link...'] = 'Új link létrehozása...';
+lang['This link will open in new window'] = 'Ez a link új ablakban fog megnyílni';

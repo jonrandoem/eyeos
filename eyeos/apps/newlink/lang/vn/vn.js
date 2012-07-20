@@ -1,0 +1,12 @@
+lang['Name of the new link'] = 'Tên liên kết mới';
+lang['Web address to link (URL)'] = 'Địa chỉ liên kết web (URL)';
+lang['Size of the window'] = 'Kích thước cửa sổ';
+lang['Icon for the link'] = 'Biểu tượng liên kết';
+lang['Select icon'] = 'Chọn biểu tượng';
+lang['Width: '] = 'Rộng:';
+lang['Height: '] = 'Cao:';
+lang['Preview'] = 'Xem trước';
+lang['Create'] = 'Tạo';
+lang['You should provide a link name!'] = 'Bạn nên nhập tên liên kết!';
+lang['Create new link...'] = 'Tạo liên kết mới...';
+lang['This link will open in new window'] = 'Liên kết sẽ mở cửa sổ mới';

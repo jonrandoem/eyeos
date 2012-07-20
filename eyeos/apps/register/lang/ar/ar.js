@@ -1,0 +1,9 @@
+lang['Register'] = 'تسجيل';
+lang['Name'] = 'الأسم';
+lang['Surname: '] = 'اللقب';
+lang['Username'] = 'اسم المستخدم';
+lang['Password'] = 'كلمة المرور';
+lang['Repeat password'] = 'إعادة كلمة المرور';
+lang['Email'] = 'البريد الإلكتروني';
+lang['Please fill in all fields.'] = 'يرجى ملء فى كافة الفراغات';
+lang['Given passwords do not match, please try again'] = 'كلمة المرور ليست قوية , الرجاء المحاولة مرة أخرى';

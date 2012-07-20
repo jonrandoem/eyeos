@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boot>
+	<!-- LIBRARIES -->
+	<element>
+		<type>library</type>
+		<name>exceptions</name>
+		<priority>20</priority>
+	</element>
+	<element>
+		<type>library</type>
+		<name>log4php</name>
+		<priority>10</priority>
+	</element>
+	<element>
+		<type>library</type>
+		<name>abstraction</name>
+		<priority>5</priority>
+	</element>
+	
+	<!-- SERVICES -->
+	<element>
+		<type>service</type>
+		<name>FileSystem</name>
+		<priority>30</priority>
+	</element>
+	<element>
+		<type>service</type>
+		<name>MMap</name>
+		<priority>20</priority>
+	</element>
+	<element>
+		<type>service</type>
+		<name>Proc</name>
+		<priority>10</priority>
+	</element>
+	<element>
+		<type>service</type>
+		<name>Sharing</name>
+		<priority>10</priority>
+	</element>
+	
+	<!-- FRAMEWORKS -->
+	<element>
+		<type>framework</type>
+		<name>Calendar</name>
+		<priority>10</priority>
+	</element>
+	<element>
+		<type>framework</type>
+		<name>People</name>
+		<priority>6</priority>
+	</element>
+	<element>
+		<type>framework</type>
+		<name>Daemons</name>
+		<priority>5</priority>
+	</element>
+	
+</boot>

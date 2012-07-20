@@ -1,0 +1,9 @@
+lang['Register'] = 'Kayıt ol';
+lang['Name'] = 'İsim';
+lang['Surname: '] = 'Soyisim';
+lang['Username'] = 'Kullanıcı Adı';
+lang['Password'] = 'Şifre';
+lang['Repeat password'] = 'Şifre (tekrar)';
+lang['Email'] = 'E-posta';
+lang['Please fill in all fields.'] = 'Lütfen tüm bilgileri doldurunuz.';
+lang['Given passwords do not match, please try again'] = 'Girdiğiniz şifreler aynı değil, Lütfen tekrar deneyin.';

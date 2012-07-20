@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<meta>
+  <entry key="eyeos.application.name">How to use eyeOS</entry>
+  <entry key="eyeos.application.author">eyeOS Team</entry>
+  <entry key="eyeos.application.version">1.0</entry>
+  <entry key="eyeos.application.description">Help with the first steps with eyeOS</entry>
+  <entry key="eyeos.application.license">AGPL</entry>
+  <entry key="eyeos.application.category">Desktop</entry>
+  <entry key="eyeos.application.iconUrl">sys:///extern/images/48x48/categories/system-help.png</entry>
+  <entry key="eyeos.application.taskBarIconUrl">sys:///extern/images/16x16/categories/system-help.png</entry>
+  <entry key="eyeos.application.systemParameters" type="array">
+  	<entry key="listable">true</entry>
+  	<entry key="owner">root</entry>
+  	<entry key="group">users</entry>
+  	<entry key="permissions">---x--x--x</entry>
+  	<entry key="anonymous">false</entry>
+  	<entry key="suid">false</entry>
+  </entry>
+</meta>

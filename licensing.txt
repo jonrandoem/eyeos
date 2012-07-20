@@ -1,0 +1,14 @@
+eyeOS - Open Source Cloud Computing's Web Desktop
+
+Copyright (C) 2007 - 2011 Eyeos Team 
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License version 3 as published by the Free Software Foundation (currently at http://www.gnu.org/licenses/agpl.html) with a permitted obligation to maintain Appropriate Legal Notices. The files within the DOCS and SPREADSHEET folders are distributed under the GNU Affero General Public License version 3 with an additional restriction on maintain attribution notices on launch of the programs within those folders. For further details, see the COPYING file
+
+This program incorporates the following third party components and respective licenses
+
+- tinyMCE - LGPL
+- Qooxfoo - LGPL
+- Floyplayer - GPL
+- ilohamail - GPL 
+- php-ods - BSD/LGPL
+- pchart - GPL

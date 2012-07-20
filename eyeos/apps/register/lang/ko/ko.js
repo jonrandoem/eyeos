@@ -1,0 +1,9 @@
+lang['Register'] = '가입하기';
+lang['Name'] = '이름';
+lang['Surname: '] = '서브이름';
+lang['Username'] = '사용자이름';
+lang['Password'] = '비밀번호';
+lang['Repeat password'] = '비밀번호다시';
+lang['Email'] = '이메일';
+lang['Please fill in all fields.'] = '모든 항목을 입력하세요.';
+lang['Given passwords do not match, please try again'] = '비밀번호가 일치하지 않습니다. 다시 시도하세요.';
