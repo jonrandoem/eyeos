@@ -19,6 +19,10 @@ I am not affiliated in any kind with the original EyeOS creators.
 
 I did not edit any file from the original package (except this README.md file)
 
+Some stats:
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jonrandoem/eyeos/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 
 
 ## License
